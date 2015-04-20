@@ -11,10 +11,7 @@
     
     - 最简单的 Demo     
 
-3. React 的设计理念
-    
-    
-4. 简单语法
+3. 简单语法
     
     createComponent
 
