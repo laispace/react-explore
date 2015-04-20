@@ -1,0 +1,17 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.5.1",
+    "koa": "^0.19.0",
+    "koa-logger": "^1.2.2",
+    "koa-static": "^1.4.9"
+  }
+}
