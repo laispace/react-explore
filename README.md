@@ -1,4 +1,4 @@
-1. React 是什么
+1. 快速介绍
 
     - Facebook 出品
     - 内存维护虚拟 DOM 
