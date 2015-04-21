@@ -1,3 +1,5 @@
+[原文地址](http://www.alloyteam.com/2015/04/react-explore/)
+
 # React 初探
 
 [1.React 简单介绍](1. React 简单介绍.md)
@@ -729,8 +731,8 @@ React.render(<MyComponent />, document.getElementById('demo'));
 ### 怎么隐藏或显示菊花
 ```
 var MyComponent = React.createClass({
-    getInitial: function () {
-        loading: true
+    getInitialState: function () {
+        return {loading: true}
     },
     showLoading: function () {
         this.setState({loading: true})
@@ -871,6 +873,9 @@ ref 属性可以是一个回调函数而不是名字，这个回调会在组件 
 <input ref={ function(component){ React.findDOMNode(component).focus();} } />
 ```
 注意不要在 render 方法中访问  refs 属性。
+
+[原文地址](http://www.alloyteam.com/2015/04/react-explore/)
+
 
 
 
