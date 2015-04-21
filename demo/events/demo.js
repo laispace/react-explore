@@ -124,7 +124,7 @@ var DemoComponent = React.createClass({
                     <p2>{title}</p2>
                     <form onSubmit={this.onAdd}>
                         {/* 注意这里指定 ref 属性，然后我们就可以使用 this.refs.xxx 访问到 */}
-                        <input type="text" ref="name" placehlder="输入你喜欢的电影"/>
+                        <input type="text" ref="name" placeholder="输入你喜欢的电影"/>
                         <input type="text" ref="date" placeholder="上映时间"/>
                         <input type="submit" value="提交"/>
                     </form>
