@@ -659,7 +659,7 @@ this.setState({data: data}); 用于动态更新状态，设置数据（设置后
 
 render() 在 React 创建时会调用一次，在数据更新时调用 setState() 方法则会继续调用它来更新网页中的真实 DOM。
 
-### 使用 getInitial() 设置默认值
+### 使用 getInitialState() 设置默认值
 
 这个方法返回的值会在组件初始化第一次调用 render() 时就被使用
 
